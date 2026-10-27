@@ -2,7 +2,7 @@
 
 ## Overview
 
-MedoseTracker API is a RESTful backend service built with Node.js, Express, and MongoDB that allows users to manage their medicines and track their daily doses. The API provides secure authentication using JSON Web Tokens and enables users to record when a dose is taken or missed, as well as view adherence summaries.
+Medose is a RESTful backend service built with Node.js, Express, and MongoDB that allows users to manage their medicines and track their daily doses. The API provides secure authentication using JSON Web Tokens and enables users to record when a dose is taken or missed, as well as view adherence summaries.
 
 This project was built as a backend practice project to learn API design, authentication, database modeling, and middleware usage in a real-world scenario.
 
@@ -21,7 +21,7 @@ This project was built as a backend practice project to learn API design, authen
 ## Project Structure
 
 ```txt
-medose-tracker-api
+medose
 │
 ├── config
 │   ├── db.js
@@ -109,7 +109,7 @@ Clone the repository and install dependencies.
 
 ```sh
 git clone <repository-url>
-cd medose-tracker-api
+cd medose
 npm install
 ```
 
